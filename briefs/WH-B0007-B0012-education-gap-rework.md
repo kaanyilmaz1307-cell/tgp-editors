@@ -1,72 +1,56 @@
-# WH — Education Gap rework (B0007–B0012), subject-based
+# WH — 10,000 Whys remake batch (B0007–B0012)
 
-**Date:** 2026-09-16 (v2, replaces the morning draft)
+**Date:** 2026-09-16 (v3, final)
 **Parent brief:** WH - B0001 - Education Gap Professor — https://app.clickup.com/t/86bc0w75k
-**Reference ad:** https://www.facebook.com/ads/library/?id=4447573792054406 (Daily Natural Wellness, 100,000 Whys). Source file attached to B0001.
+**Editor:** Ufuk (all six). Creative strategist: Kaan.
 **Product:** 10,000 Whys (ClickUp product record 86bc0vjmn)
 
-## What the reference actually is (studied frame by frame, 58s, 720x1280)
+## Why this batch exists
 
-| Time | On screen | VO |
-|---|---|---|
-| 0:00–0:03 | Slow-mo bullet through an apple | "So this is what they mean by the education gap." |
-| 0:03–0:07 | Phone hologram in a glass | "While your kids are busy watching TV or playing on their phones," |
-| 0:07–0:09 | Paper-cup helicopter | "kids who read encyclopedias already know." |
-| 0:09–0:17 | Spoon-and-marker bowl trick (does not match the facts) | tree rings · rainbows · volcanoes and earthquakes · rivers |
-| 0:18–0:21 | Book cover on a desk, pointer | "Smart parents get their kids this comic book…" |
-| 0:22–0:27 | Page flips, illustrated spreads | "Just two pages a day… Kids who read this book grow up knowing:" |
-| 0:28–0:29 | Question pages with pointer | "why do seasons change? Why do we need to sleep," |
-| 0:30–0:34 | Professor on camera (grey blazer, library) | "how do fireflies glow, and why do apples turn brown after cutting?" |
-| 0:35–0:42 | Contents pages, pointer down the chapter list | "This book covers astronomy, geography, zoology, botany, and human biology. Every topic connects to real life," |
-| 0:43–0:47 | Illustrated spreads, pointer | "helping children truly understand science and sparking their curiosity and love for learning" |
-| 0:48–0:51 | Professor on camera | "with beautiful illustrations, it makes learning fun and engaging." |
-| 0:52–0:54 | Spreads | "This is the kind of book kids actually want to read." |
-| 0:55–0:57 | Back cover, then front cover to camera | "Click the link below to get a copy for your child." |
+Youssef's feedback on B0001 V1 (16 Sept): one video instead of 6–7, four hook lines that were one idea over the same footage, same B-roll under every export, wrong music, flat voice. His spec: remake the competitor's top videos, same script logic, each with a different opening and different clips, 3–4 hooks each, only the product part shared.
 
-Captions: bottom third, all caps bold, white with black outline, 2–4 words per card, one keyword per card in orange. No top banner. Music under the whole ad, ducked under the VO.
+## The six projects
 
-## Why B0001 V1 failed (Youssef, 16 Sept)
+| Brief | Reference (Daily Natural Wellness) | Format | ClickUp |
+|---|---|---|---|
+| B0007 Kitchen Physics Tricks | 4447573792054406, 58s | VO over viral DIY clips 0–17s, book block after, two professor cutaways | https://app.clickup.com/t/86bc1k0ue |
+| B0008 Age Three Brain Window | 1047935514328982, 93s | VO over viral DIY clips 0–25s, book after, no host | https://app.clickup.com/t/86bc1k11p |
+| B0009 Not Magic Experiments | 2135879490594141, 59s | VO narrating experiments 0–25s, top banner, galaxy frame, book after | https://app.clickup.com/t/86bc1k160 |
+| B0010 After Age Seven | 1247894820460497, 58s | Professor on camera alternating with book pages | https://app.clickup.com/t/86bc1k19q |
+| B0011 Five Questions Opening | 858250503906534, 61s | Five rapid questions over cinematic clips, book, fireplace professor cutaway | https://app.clickup.com/t/86bc1k1fn |
+| B0012 Phase Out Storybooks | 1411304884430983, 73s | Podcast talking head with top banner, then book pages | https://app.clickup.com/t/86bc1k1va |
 
-1. One video, not 6–7. 2. Four hook lines that were rewrites of one idea over the same footage: one hook. 3. Same B-roll under every export. 4. Wrong music. 5. Flat AI voice; the reference is an old, warm, trustworthy narrator.
+Reference videos are attached to each task. Full frame-by-frame breakdowns and scripts live in the task descriptions.
 
-## Constants across all six variants
+## Constants
 
-- **Script:** word for word from the reference, brand swapped. Hook line and intro line vary; fact list, body and CTA do not.
-- **Structure:** 0:00–0:03 hook · 0:03–0:09 intro · 0:09–0:17 fact list · 0:18–0:57 shared book block. First 17 seconds unique per variant; book block cut once and reused in all 24 ads.
-- **Voice:** cloned from the reference in Higgsfield. Voice element `f1abaffd-c10b-4b8a-8d8e-78223b1e2a5c`, "WH Professor (10,000 Whys)". Every line regenerated with it. No new host footage: the two professor cutaways reuse the B0001 take through Higgsfield voice_change.
-- **Music:** the exact reference track, ripped from the attached file or its licensed version.
-- **Clips:** pulled from YouTube / TikTok / IG viral science compilations by editors, no Higgsfield credits. AI-generated only when no clean source exists. No watermarks, cropped to 4:5. The hook clip is the single most "wait, what?" clip of the set and starts on frame 1 with no fade.
-- **Rules:** real 10,000 Whys cover and spreads only. No warning or disclaimer text. 4:5, Meta. Export names `WH-B00xx-H1…H4`.
+- **Voice:** cloned reference narrator, Higgsfield voice element `f1abaffd-c10b-4b8a-8d8e-78223b1e2a5c` ("WH Professor (10,000 Whys)"). Every line regenerated with it. Test read on B0001.
+- **No new host footage.** On-camera stretches (B0007 cutaways, B0010, B0011 cutaway, B0012) use the existing B0001 professor take lip-synced to the new audio in Higgsfield, alternating with book pages.
+- **Music:** each project uses its own reference's track, ripped from the attached file. Not a lookalike.
+- **Clips:** editors pull from YouTube / TikTok / IG (AI-generated only when no clean source). No watermarks, cropped to 4:5. No clip appears in more than one hook version or more than one project.
+- **Book block:** real 10,000 Whys cover and spreads only; every question the VO names shown as a page with a pointer. B0007's book footage reused across projects where the shot matches.
+- **Facts:** brand swapped (100,000 Whys → 10,000 Whys), "set" → "copy", unverifiable counts dropped, "over 174 full-colour pages" kept (as in B0004/B0006), ages 6 to 12, no brain-size claim, no cartoon brand names.
+- **Output:** 4 ads per project (H1–H4), 4:5, Meta, export names `WH-B00xx-H1…H4`. 24 ads total.
 
-**Body (identical in all 24 ads):**
-> you can tell a tree's age by its rings, why rainbows appear after rain, how volcanoes and earthquakes happen, and how rivers flow. Smart parents get their kids this comic book, Ten Thousand Whys. Just two pages a day can make your child sharper. Kids who read this book grow up knowing: why do seasons change? Why do we need to sleep, how do fireflies glow, and why do apples turn brown after cutting? This book covers astronomy, geography, zoology, botany, and human biology. Every topic connects to real life, helping children truly understand science and sparking their curiosity and love for learning. With beautiful illustrations, it makes learning fun and engaging. This is the kind of book kids actually want to read. Click the link below to get a copy for your child.
+## Hooks at a glance
 
-## The six variants
-
-| Brief | Subject | ClickUp | Hook clip (frame 1) | Clips 2–6 |
+| Brief | H1 (control, from reference) | H2 | H3 | H4 |
 |---|---|---|---|---|
-| B0007 | Kitchen physics (control) | https://app.clickup.com/t/86bc1k0ue | Slow-mo bullet through an apple | Balloon on a skewer · paper-cup helicopter · spoon-and-marker bowl · phone hologram · oobleck on a speaker |
-| B0008 | Space | https://app.clickup.com/t/86bc1k11p | Floating water sphere on the ISS | Booster landing · solar eclipse timelapse · planet size comparison · moon phases timelapse · Saturn rings |
-| B0009 | Earth and weather | https://app.clickup.com/t/86bc1k160 | Lava meeting the ocean | Tornado from a car · slow-mo lightning · double rainbow timelapse · frozen lake cracking · river delta drone |
-| B0010 | Animals | https://app.clickup.com/t/86bc1k19q | Chameleon tongue slow-mo | Octopus colour change · mantis shrimp punch · hummingbird slow-mo · ant bridge · glass frog |
-| B0011 | Plants | https://app.clickup.com/t/86bc1k1fn | Venus flytrap on a finger | Seed sprouting timelapse · mimosa folding · mushroom timelapse · sunflower tracking · stump rings |
-| B0012 | Human body | https://app.clickup.com/t/86bc1k1va | Real-time MRI of swallowing | Slow-mo sneeze · goosebumps macro · pupil dilating · hand tendons or X-ray · heart and blood cells |
+| B0007 | "So, this is what they mean by the education gap." | "Your kid can do this trick tonight. Most parents can't explain why it works." | "Every kid who knows why this works reads the same book." | "This is why some kids just seem smarter." |
+| B0008 | "Age three is when parents who don't know their priorities get weeded out." | "If I could raise my child again, I'd change one thing before age three." | "Most parents get the first three years wrong. Here's the fix." | "Parents, this is the window you don't get back." |
+| B0009 | Pen on a cola can, milk into cola (not magic, real experiment) | Candle in a glass, water climbs | Egg sucked into a bottle | Balloon bends a water stream |
+| B0010 | "After age seven, reading encyclopedias is a simple yet effective way to unlock a child's thinking." | "After age seven, one habit separates the kids who think from the kids who memorise." | "If your child is over seven, stop buying storybooks. Here's why." | "Age seven is when a child's thinking either opens up or shuts down." |
+| B0011 | Water / seasons / dinosaurs / fish / elevators | Sky blue / volcanoes / birds / moon / plane | Dreams / sea salty / bees / autumn leaves / rainbow | Stars / cats purr / ice floats / hiccups / earthquakes |
+| B0012 | "After your child turns six, you should gradually phase out storybooks." | "Storybooks stop working at a certain age. Most parents miss it." | "If your child still only reads storybooks, you're losing the golden years." | "Every mom can do this in 15 minutes a day, and it changes how your kid thinks." |
 
-### Hooks and intros
+## Reference transcripts (whisper, for the record)
 
-| Brief | Intro | H1 | H2 | H3 | H4 |
-|---|---|---|---|---|---|
-| B0007 | "While your kids are busy watching TV or playing on their phones, kids who read encyclopedias already know:" | "So, this is what they mean by the education gap." (control) | "Your kid can do this trick tonight. Most parents can't explain why it works." | "Every kid who knows why this works reads the same book." | "This is why some kids just seem smarter." |
-| B0008 | "While most kids are glued to a screen after school, kids who read encyclopedias already know:" | "Your kid will ask you this about space. You won't have the answer." | "Most adults can't explain any of this. Some 8-year-olds can." | "Ask your kid why the moon changes shape. Then watch this." | "This is what the education gap looks like from space." |
-| B0009 | "While your kids are busy with video games and cartoons, kids who read encyclopedias already know:" | "Ask your kid why volcanoes erupt. Then watch this." | "Your kid scrolls past this every day. Some kids know exactly why it happens." | "Every parent freezes at this question." | "The kid who can explain this isn't the one with a tutor." |
-| B0010 | "Your kids watch videos all day, but kids who read encyclopedias already know:" | "Your kid asks why this animal can do that. Here's what smart parents say." | "Ever notice it's always the same kid who knows the answer?" | "Most kids watch this. Some kids can explain it." | "This is why some kids always know the answer." |
-| B0011 | "While most kids scroll past all of this on a phone, kids who read encyclopedias already know:" | "Nobody teaches your kid this in school." | "Kids who know why this happens aren't born smarter." | "Watch what a 9-year-old learns from two pages a day." | "Your kid walks past this every day and never asks why. Smart kids do." |
-| B0012 | "While most parents answer with 'I don't know, ask Google,' kids who read encyclopedias already know:" | "Your kid's body does this every day. Ask them why." | "Every kid asks this. Most parents google it." | "Stop googling your kid's questions. Do this instead." | "The kid who knows why this happens reads two pages a day." |
+**1047935514328982:** Age 3 is when parents who don't know their priorities get weeded out. If I could raise my child again, I wouldn't let them watch phones, tablets or TV. I'd focus on brain building activities instead. You need to know that by age 3 a child's brain has already reached 70% of an adult size. That's the critical window for cognitive, language and thinking development. So no more paid subscriptions, no more Paw Patrol, no more Bluey. It's 15 minutes a day reading this comic-style book 100,000 Whys with your child. Why do fireflies glow? Why does an apple turn brown after you cut it? Why do penguins waddle? First take your child into the wonderful world of science. Then find the answers together through fun comic stories that'll build observation skills while learning about animals, plants, the human body, the universe, and more. Think about it. Why do we have day and night? Why is the sea salty? The clever Q&A format sparks your child's ability to make connections. Through each interesting why your child exercises logical thinking, practices reasoning, and builds communication skills. This book covers six major areas: animals, plants, the human body, daily life, the universe, and technology, with over 200 topics, more than 2,000 knowledge points, and over 1,000 fun illustrations. Every question and answer is a deep thinking process that helps your child fall in love with reading and learning through the joy of discovery. If you have a child ages 3 to 12, you need this set. Click the link below and get a copy for your little question asker.
 
-## Production order
+**2135879490594141:** This is not magic, but a real scientific experiment. Take a pen and rub it continuously on an aluminum can. The cola will open by itself. Pour milk into the free cola, and the cola will become transparent. Connect four spoons end to end, place four batteries on top, and the coin in the middle will rotate by itself. Stick tape on a water-filled balloon and puncture the middle. The water flow will seem to be frozen. This is the phenomenon of laminar flow. Parents who want to broaden their children's horizons and knowledge must show them this set of 100,000 Whys before they are 13 years old. This is because children who grow up reading encyclopedias are significantly different from those who don't. For example, while other children ask adults questions like how big is the universe, how does a match catch fire, and why can an air conditioner cool down, children who have read encyclopedias already know the answers. This set of 100,000 Whys explains encyclopedic knowledge in a way that children can understand through comics. Reading for 15 minutes every day can cultivate children's thinking. Hurry up and get a set for your child.
 
-1. Generate all 30 VO lines (24 hooks, 6 intros) plus one body+CTA read with the cloned voice.
-2. Revoice the B0001 professor take with voice_change; cut the two cutaways.
-3. Cut the shared book block once (0:18–0:57).
-4. Editors pull 6 clips per variant, cut 0:00–0:17 four times per variant (one per hook, same clips, different hook line).
-5. Captions, reference music, export 24 files.
+**1247894820460497:** After age 7, reading encyclopedias is a simple yet effective way to unlock a child's thinking. This isn't merely about absorbing theoretical knowledge. It's about connecting life with learning, allowing children to truly grasp the magic of knowledge. A quick and easy approach is to read this comic-style encyclopedia series 100,000 Whys with your child. Covering six major domains, the human body, life, plants, animals, space and technology, and astronomy/geography. It features over 300 thematic articles, more than 1,000 engaging illustrations, and over 2,000 knowledge points. This broadens children's horizons and expands their thinking dimensions. For example, why do the seasons change? How do parrots talk? Why do people dream? Why does a cut apple turn brown? Through analyses of everyday examples, children can truly grasp and internalize these concepts. More engaging than watching TV or playing with phones, this comprehensive encyclopedia that broadens children's horizons and sharpens their thinking is a worthwhile purchase for every parent.
+
+**858250503906534:** Where did Earth's water come from? Why do seasons change? How did dinosaurs go extinct? Why can't fish live out of water? How do elevators move up and down? Finally, there's an encyclopedia that truly understands children. A book leads children from the universe to Earth, from the human body to animals, from history to science, featuring over 200 themes, 2,000 knowledge points, and 1,000 fun illustrated entries, broadening their horizons and perspective. The book explains to children, why does the sun shine and emit heat? Why do roosters crow every morning? Why do apples turn brown after being cut? Why do people need sleep? By using examples from their daily lives, children can truly understand and master these knowledge points, rich, vivid, and engaging. This book is more exciting than TV or smartphones. Reading just two pages a day can inspire children's independent learning and cultivate scientific thinking. Click the link below to purchase a copy for your kids.
+
+**1411304884430983:** After your child turns three, you should gradually phase out storybooks. This age is the golden period for cognitive exploration, and ordinary storybooks can no longer keep up with their rapidly developing little brain. You need to introduce encyclopedic knowledge to build their observation and logical thinking skills. The method is simple. Every mom can easily do it, spend 15 minutes a day reading this comic version of 100,000 Whys with your child. Why do mosquito bites itch? Why is the butt split into two halves? Why don't birds have teeth? Do fish close their eyes when they sleep? Flip to any page and you'll find topics kids are super curious about. This is the world inside a child's mind. The content is close to daily life and full of childlike fun. See how it explains shadow formation. It tells kids that light travels in straight lines, paired with cute illustrations, making the answer easy to understand. This set covers six major fields, animals, plants, the human body, daily life, the universe and technology, with over 200 topics, more than 2,000 knowledge points and over 1,000 fun illustrations. Every question and answer is a process of deep thinking, cultivating your child's ability to think continuously and building good habits. Don't miss out if you have a child ages 3 to 12.
