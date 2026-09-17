@@ -15,6 +15,16 @@ Research was done from a sandboxed environment where outbound page fetching was 
 
 Anything I could not verify, I say so rather than filling the gap.
 
+> **UPDATE — 2026-09-17, second verification pass.** A targeted second round of price research corrected four figures in §11. Two are decision-relevant:
+> - **Massimo Dutti sells a 100% silk printed (paisley) scarf at €29,95** (linen €39,95). My first pass read "scarves from €30" as non-silk. A trusted Spanish premium brand selling 100% silk at half the hero price makes the differentiation burden heavier than §11 originally implied. **This is the #1 price to verify live** — size and discount status unknown.
+> - **Fio de Martié's 70×70 cm and 90×90 cm silk squares are €94,90** (33×33 cm €16,90; bandanas from €48,90; Italian silk, handmade in Spain). My first pass said "from €48.90". The Spanish premium ceiling is therefore *higher* than I stated, which makes €59.90 safer, not riskier.
+> - **ARKET cashmere is ~£85 (≈€98) and printed silk ~£45 (≈€52)**, contradicting the "€39 cashmere" figure in §11. The plain-cashmere threat is softer than stated. Unresolved — verify in EUR.
+> - **Hamzah (ES artisan): silk scarves €35–49, large €47, "Noisette" €69**, free shipping over €50. Confirms the Spanish independent-premium band.
+>
+> Net effect: the €59.90 hero price holds, because the verified Spanish independent-premium band is wider than first stated (Hamzah €35 → Fio de Martié €94,90) with €59.90 in the middle. But Massimo Dutti's €29,95 silk makes making the difference visible mandatory rather than optional.
+>
+> **Live-site verification remains impossible from this environment** — the egress proxy allows only GitHub (WebFetch and curl both tested and blocked). The Turkish version of this report carries the full corrected table with a per-row verification-status column and a 12-row checklist you can complete yourself in 15 minutes: `research/ispanya-fransa-premium-sal-girisimi-fizibilite.md`.
+
 ---
 
 # 1. EXECUTIVE SUMMARY
@@ -308,7 +318,7 @@ Prices below are **market retail bands observed in the competitor scan (§11)**,
 
 | Product | Material reality | Typical retail | Premium retail | Peak season | Customer profile | Gift potential | Perceived value | Competition | Return risk | Ship weight | Upsell potential |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| **Silk scarf (90cm carré)** | Mulberry silk twill, hand-rolled hem | €40–90 | **€69–99** | **Oct + Dec peaks; year-round base** | 35–55, classic, brand-literate | **Very high** | **Highest in category** — "silk" is the value word | Severe (Hermès reference, Philéone €68) | Low (5–7%) | 60–90g | High — ring, box, second colourway |
+| **Silk scarf (90cm carré)** | Mulberry silk twill, hand-rolled hem | €40–90 | **€69–99** | **Oct + Dec peaks; year-round base** | 35–55, classic, brand-literate | **Very high** | **Highest in category** — "silk" is the value word | Severe (Hermès reference, Philéone €68, **Massimo Dutti 100% silk €29,95**) | Low (5–7%) | 60–90g | High — ring, box, second colourway |
 | **Silk scarf (65cm / small square)** | Same fabric, less of it | €30–55 | **€49–69** | Spring + Dec | 28–45, hair/bag styling | High | Good — reads premium at lower price | High | Low | 30–45g | **Highest — ideal 2-pack and add-on** |
 | **Satin scarf** | Polyester satin; silk *look*, not silk feel | €15–30 | €29–39 | Oct–Dec | 25–35, price-led, trend-led | Medium | **Fragile** — "satin" signals synthetic to informed buyers | Very high (Zara/H&M/Shein) | Low | 40–70g | Medium |
 | **Cotton scarf** | Cotton voile / lawn, often printed | €20–40 | €34–49 | Spring/summer; weakest Dec | 30–50, casual-elegant, Mediterranean | Medium | Moderate — honest, not luxurious | High | Low | 80–120g | Medium |
@@ -712,7 +722,7 @@ You have three structural options. Only one of them is both legal and low-risk.
 | 10 | SOI Paris | FR | Silk scarves | Silk | Not verified | Parisian DTC | Styling-led content | Shopify-pattern site |
 | 11 | Soeur | FR | Scarves in "noble materials" | Silk, cashmere, wool | Not verified | Mass-premium French fashion | Full-wardrobe brand; scarf is an accessory line | Strong brand equity; not scarf-specialist |
 | 12 | Sézane | FR | Scarves, square scarves | Silk/wool | Not verified | The French DTC benchmark | Community, drop model, Parisian identity | **Study their email/drop mechanics, not their pricing** |
-| 13 | **Fio de Martié** ★ | **ES** | Hand-stamped silk scarves | Silk | **from €48.90** | **Spanish premium made-in-Spain** | Hand-stamped, made in Spain, **also stocked in El Corte Inglés** | **Your closest Spanish comp and your price-floor proof.** €48.90 works in Spain with Spanish manufacture |
+| 13 | **Fio de Martié** ★ | **ES** | Silk squares, bandanas | Italian silk, handmade in Spain | **33×33 cm €16,90; bandanas from €48,90; 70×70 cm and 90×90 cm €94,90**; sale items €89,90 → €29,90 / €74,90; at El Corte Inglés €64,90 → €34,90 | **Spanish premium made-in-Spain** | Fabric/embroidery/label customisation, **also stocked in El Corte Inglés** | **Your closest Spanish comp and your premium-ceiling proof.** A Spanish brand sells a 90×90 silk square at **€94,90** — well above your €59.90 |
 | 14 | **Hamzah** ★ | **ES** | Printed silk scarves and foulards, men's + women's | 100% natural silk | Not verified | Spanish artisan | Family of artists/artisans; exclusive designs | Direct Spanish DTC competitor |
 | 15 | **Julunggul** ★ | **ES** | Silk foulards, scarves, made-to-measure kimonos | Silk | Not verified | Spanish artisan, made in Spain | Handcrafted, Zaragoza-based, ships all of peninsular Spain + islands | Direct Spanish DTC competitor |
 | 16 | Munira | ES | Silk scarves and shawls | Silk | Not verified | Artisan designs | Design-led | Multi-page catalogue = real assortment depth |
@@ -727,9 +737,9 @@ You have three structural options. Only one of them is both legal and low-risk.
 
 | # | Brand | Country | Price | Positioning | Why it matters to you |
 |---|---|---|---|---|---|
-| 23 | **Massimo Dutti** ★ | ES (Inditex) | **Scarves from €30** | Spanish premium high-street; specialises in cashmere and wool | **The most dangerous competitor in Spain.** Spanish, trusted, premium-perceived, physically present, and starts €30 below your hero price |
-| 24 | **& Other Stories** ★ | SE (H&M) | **Cashmere €49** | Accessible premium | Real cashmere at €49 makes a €59.90 non-cashmere scarf a hard sell unless your print and presentation clearly differentiate |
-| 25 | **ARKET** ★ | SE (H&M) | **Cashmere €39** | Minimalist quality | **Brutal.** €39 cashmere with Scandinavian trust equity destroys any "premium plain scarf" strategy. **This is why your hero must be a proprietary print, not a plain** |
+| 23 | **Massimo Dutti** ★ | ES (Inditex) | **100% silk printed scarf €29,95**; linen €39,95; range "from €30" | Spanish premium high-street; specialises in cashmere and wool | **The most dangerous competitor in Spain — and the most important correction in this report.** Spanish, trusted, premium-perceived, physically returnable, and selling 100% silk at *half* your hero price. Beat it on proprietary print, gift presentation and styling content — never on price or trust. **Verify this price live first** |
+| 24 | **& Other Stories** ★ | SE (H&M) | Cashmere knit and printed silk lines listed on the EUR store; **price unverified** (a first-pass Spanish source gave "cashmere €49") | Accessible premium | If €49 cashmere is real, a €59.90 non-cashmere scarf is a hard sell unless print and presentation clearly differentiate. **Unresolved — verify** |
+| 25 | **ARKET** ★ | SE (H&M) | **Cashmere ~£85 (≈€98); printed silk ~£45 (≈€52)** — contradicts the "€39 cashmere" figure from the first pass | Minimalist quality | Softer threat than first stated, but the logic holds: a plain scarf is instantly comparable and you lose. **Your hero must be a proprietary print. Verify EUR pricing** |
 | 26 | H&M | SE | Printed **€9.99**, fine-knit **€14.99**, fringed chiffon **€19.99** | Fast fashion | Sets the floor. Anything you price under €35 gets compared here |
 | 27 | Zara / Mango | ES | ~€15–40 | Fast fashion premium-look | Volume floor; huge Spanish brand familiarity |
 | 28 | Cortefiel | ES | Not verified | Spanish mid-market, foulards + bandanas | Established Spanish accessories assortment |
