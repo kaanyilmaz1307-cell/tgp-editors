@@ -35,3 +35,20 @@ bottom of the script — edit them there when reusing it for another report.
   not support `@page` margin boxes, and no PDF library is available in this
   environment to stamp them afterwards.
 - Output for the Turkish report: 71 pages (66 portrait + 5 landscape), ~2.5 MB.
+
+## `rapor-md2web.py` — markdown → web page (Artifact)
+
+Same converter family, different target: emits an HTML fragment for a Claude
+Artifact (no doctype/html/head/body wrapper — the publish skeleton supplies
+those) with a sticky table of contents, a section filter, scroll-spy, and
+tables in horizontally scrollable containers sized by column count.
+
+```bash
+python3 research/tools/rapor-md2web.py <input.md> <parts-prefix>   # writes <prefix>.parts.json
+```
+
+The page shell (design tokens, masthead, decision gates, scripts) lives in the
+build step that consumes that JSON; `rapor-web.html` is the last rendered
+output.
+
+Published page: https://claude.ai/artifact/EnqFkc88oF8CGE6PrfzQjy
